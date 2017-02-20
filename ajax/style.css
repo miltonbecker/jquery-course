@@ -1,0 +1,16 @@
+.comments {
+    display: none;
+}
+
+.comments section {
+    width: 200px;
+    border: 1px dotted black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.comments p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+}

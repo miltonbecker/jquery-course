@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Playing with jQuery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Some Title</h1>
+
+    <div class="float-left">
+
+        <p id="orange">Some paragraph.</p>
+        <ul id="first">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ul id="second">
+            <li class="orange" data-example="Confirmed Item 1">Item 1</li>
+            <li class="b">Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <button class="button">Button</button>
+        <button class="button">Button</button>
+        <button class="button-this">Button this</button>
+
+    </div>
+
+    <div class="filter-test">
+
+        <div id="filters" class="filters">
+            <button class="green">Green</button>
+            <button class="red">Red</button>
+            <button class="reset">Reset</button>
+        </div>
+
+        <ul>
+            <li class="result green">Yup</li>
+            <li class="result red">Nope</li>
+            <li class="result green">Yup</li>
+            <li class="result red">Nope</li>
+        </ul>
+
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

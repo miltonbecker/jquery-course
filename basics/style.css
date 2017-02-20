@@ -1,0 +1,66 @@
+body {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    color: dodgerblue;
+}
+
+ul {
+    list-style: square;
+}
+
+.b {
+    color: seagreen;
+}
+
+.button, .button-this {
+    padding: 5px;
+    font-size: 1em;
+}
+
+.result {
+    font-style: italic;
+}
+
+.green {
+    color: seagreen;
+}
+
+.highlight {
+    background-color: khaki;
+}
+
+.highlight::before {
+    content: '* ';
+}
+
+.highlight::after {
+    content: ' *';
+}
+
+.red {
+    color: crimson;
+}
+
+.float-left {
+    display: table;
+    float: left;
+    margin-right: 20px;
+}
+
+.filter-test {
+    display: table;
+}
+
+.border {
+    border: 1px dotted dodgerblue;
+}
+
+.filters .green {
+    font-weight: bold;
+}
